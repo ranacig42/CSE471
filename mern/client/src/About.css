@@ -1,0 +1,114 @@
+/* About Page Styles */
+.about-page {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(rgba(0, 58, 115, 0.9), rgba(0, 58, 115, 0.9)),
+                center/cover;
+    padding: 6rem 0;
+  }
+  
+  .about-hero h1 {
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Content Sections */
+  .planning-section,
+  .engagement-section {
+    padding: 4rem 0;
+  }
+  
+  .engagement-section {
+    background-color: #f8f9fa;
+  }
+  
+  /* Statistics Section */
+  .stats-section {
+    background: #ffffff;
+    padding: 5rem 0;
+  }
+  
+  .stat-number {
+    color: #003a73;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-text {
+    color: #6c757d;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Highlights Section */
+  .highlights-section {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  .highlights-section h3 {
+    color: #004a99;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    border-left: 4px solid #004a99;
+    padding-left: 1rem;
+  }
+  
+  .highlights-section p {
+    color: #495057;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-hero {
+      padding: 4rem 0;
+    }
+    
+    .about-hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .stat-number {
+      font-size: 2.5rem;
+    }
+  
+    .highlights-section h3 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .stat-number {
+      font-size: 2rem;
+    }
+    
+    .highlights-section {
+      padding: 2rem 0;
+    }
+  }
+  
+  /* Utilities */
+  .bg-primary {
+    background-color: #003a73 !important;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+  .display-4 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }

@@ -1,0 +1,56 @@
+/* Custom CSS for the CreateProgram component */
+.form-control, .form-select {
+    border-radius: 5px;  /* Round corners for input fields */
+    padding: 12px;  /* Increased padding for better visual appeal */
+  }
+  
+  .card {
+    border-radius: 10px;  /* Rounded corners for the form container */
+    background: rgba(255, 255, 255, 0.9);  /* Subtle background with opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for a clean effect */
+  }
+  
+  .card-header {
+    background-color: #007bff;  /* Blue background for the header */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 30px;  /* Increase padding inside the form */
+  }
+  
+  .alert {
+    font-size: 14px;  /* Slightly smaller font for the alert message */
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;  /* Custom font family for the heading */
+    font-weight: bold;
+    color: #007bff;  /* Blue color for the heading */
+  }
+  
+  h3 {
+    color: #007bff;  /* Heading color for subheadings */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;  /* Primary button color */
+    border: none;  /* Remove button border */
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;  /* Darker blue when hovering over the button */
+  }
+  
+  .form-label {
+    font-weight: bold;  /* Make labels bold */
+    color: #333;  /* Dark color for better readability */
+  }
+  
+  .container {
+    max-width: 900px;  /* Limit the width of the form container */
+    margin: 0 auto;  /* Center the form */
+  }
+  

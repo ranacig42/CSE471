@@ -1,0 +1,43 @@
+.application-card {
+    background-color: #fff;
+    border-left: 6px solid #ccc;
+    transition: 0.3s;
+  }
+  
+  .application-card.status-accepted {
+    border-left-color: #28a745;
+    background-color: #e8f5e9;
+  }
+  
+  .application-card.status-waitlisted {
+    border-left-color: #ffc107;
+    background-color: #fffbea;
+  }
+  
+  .application-card.status-rejected {
+    border-left-color: #dc3545;
+    background-color: #f8d7da;
+  }
+  
+  .application-card a {
+    color: #0d6efd;
+    text-decoration: underline;
+  }
+  
+  .application-card a:hover {
+    text-decoration: none;
+  }
+  
+  .application-card.accepted {
+    border-left: 5px solid #28a745;
+    background-color: #e9f8ec;
+  }
+  .application-card.rejected {
+    border-left: 5px solid #dc3545;
+    background-color: #fcebea;
+  }
+  .application-card.waitlisted {
+    border-left: 5px solid #ffc107;
+    background-color: #fff8e1;
+  }
+  

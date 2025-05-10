@@ -11,4 +11,5 @@ This is a basic **MERN stack project**.
 
 ## Project Name
 
-**MERN**
+**GRAD GLOBE 
+  ADMISSION PORTAL WEBSITE **
